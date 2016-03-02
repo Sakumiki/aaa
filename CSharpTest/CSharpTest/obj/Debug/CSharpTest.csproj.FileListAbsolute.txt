@@ -1,0 +1,6 @@
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\bin\Debug\CSharpTest.exe.config
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\bin\Debug\CSharpTest.exe
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\bin\Debug\CSharpTest.pdb
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\obj\Debug\CSharpTest.csprojResolveAssemblyReference.cache
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\obj\Debug\CSharpTest.exe
+C:\Users\YUKIT\Documents\SharpDevelop Projects\CSharpTest\CSharpTest\obj\Debug\CSharpTest.pdb
