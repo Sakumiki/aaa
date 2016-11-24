@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>37xxxxvii</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="javascript" type="text/javascript" href="textloop.js">
+<style>@font-face {	font-family: 'HGRSMP';src: url('Fonts/HGRSMP.ttf') format('truetype');}
+</style>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Montserrat::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+<script type="text/javascript" src="https://npmcdn.com/headroom.js@0.9.3"></script>
+<script type="text/javascript" src="/js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/navFixed.js"></script>
+<script type="text/javascript" src="js/pageTop.js"></script>
+<script type="text/javascript" src="js/accordion.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<script>
+function textloop(school,count){ 								//shool＝学校名,count＝ループ数
+	for(var i = 0;i<count;i++){
+		document.write(school+" ");
+	}
+}
+</script>
+
+</head>
+<body>
+<!--****************************************************************
+                           ヘッダー
+******************************************************************-->
+<header id="header"class="head">
+<h1>37xxxvii</h1>
+<p>あいうえおかきくけこさしすせそ</p>
+</header>
+<!--****************************************************************
+                           ナビゲーション
+******************************************************************-->
+<nav id="fixedBox" class="nav">
+<h1 >37xxxvii</h1>
+<ul>
+	<li><a href="#">HOME</a></li>
+	<li><a href="#">PRODUCTS</a></li>
+	<li><a href="#">INFORMATION</a></li>
+	<li><a href="#">CATEGORY <span style="font-size:5px">▼</span></a>
+		<ul>
+			<li><a href="#">カテゴリ1</a></li>
+			<li><a href="#">カテゴリ2</a></li>
+			<li><a href="#">カテゴリ3</a></li>
+			<li><a href="#">カテゴリ4</a></li>
+		</ul>
+	</li>
+	<li><a href="#">CSR</a></li>
+	<li><a href="#">FAQ</a></li>
+</ul>
+</nav>
+<div id="pageTop">
+<a href="#top">TOP</a>
+</div>
+<!--****************************************************************
+                           ラップ
+******************************************************************-->
+<div id="wrap">
+<article>
+<section>
+<IFRAME src="html/default.html" name="preview" width="100%" height="700" frameborder="0"></IFRAME>
+</article>
+</section>
+<aside>
+<section class="sideMenu" id="accordion">
+<h1>ライブラリー</h1>
+	<span>変数とループ制御</span>
+		<ul>
+			<li><a href="http://192.168.1.252/~d33837/201637/html/test101.html" class="childCate" target="preview">HTMLによる繰り返し</a></li>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test102.php" class="childCate" target="preview">while文による繰り返し</a></li>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test103.php" class="childCate" target="preview">for文による繰り返し</a></li>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test105.php" class="childCate" target="preview">while文によるフォントサイズ変更</a></li>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test106.php" class="childCate" target="preview">while文と変数</a></li>
+		</ul>
+	<span href="#">条件によって処理を振り分ける</span>
+		<ul>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test107.php" class="childCate" target="preview">if文,elseif文,else文</a></li>
+			<li><a href="http://192.168.1.252/~d33837/201637/php/test108.php" class="childCate" target="preview">switch文</a></li>
+		</ul>
+	<span href="#">第三章</span>
+		<ul>
+			<li><a href="#" class="childCate">カテゴリー１</a></li>
+			<li><a href="#" class="childCate">カテゴリー２</a></li>
+			<li><a href="#" class="childCate">カテゴリー３</a></li>
+		</ul>
+	<span href="#">第四章</span>
+		<ul>
+			<li><a href="#" class="childCate">カテゴリー１</a></li>
+			<li><a href="#" class="childCate">カテゴリー２</a></li>
+			<li><a href="#" class="childCate">カテゴリー３</a></li>
+		</ul>
+</ul>
+</section>
+<section class="sideMenu">
+<h1>アーカイブ</h1>
+<ul>
+	<li class="pareAchv"><a href="#">アーカイブ1</a></li>
+	<li class="pareAchv"><a href="#">アーカイブ2</a></li>
+	<li class="pareAchv"><a href="#">アーカイブ3</a></li>
+	<li class="pareAchv"><a href="#">アーカイブ4</a></li>
+</ul>
+</section>
+</aside>
+</div>
+<!--****************************************************************
+                           フッター
+******************************************************************-->
+<footer>
+<p>Copyright(C) 37xxxvii All Rights Reserved</p>
+<address>Kobe, Japan</address>
+</foorer>
+</body>
+</html>
